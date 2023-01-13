@@ -1,16 +1,11 @@
 void main() {
-  var name1 = '';
-  String name2 = '';
+  dynamic name = '';
 
-  print('name1 is ${name1.runtimeType}');
-  print('name2 is ${name2.runtimeType}');
+  // dynamic 변수의 타입을 몰라서 String 기능을 자동완성 못함.
+  name.trim();
 
-  var name3;
-  name3 = '';
-  name3 = false;
-  dynamic name4 = '';
-  name4 = false;
-
-  print('name3 is ${name3.runtimeType}');
-  print('name3 is ${name4.runtimeType}');
+  if (name is String) {
+    // dynamic 변수 체크를 한 스코프 내에서는 String 기능의 자동완성함.
+    name.trim();
+  }
 }
