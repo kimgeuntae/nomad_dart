@@ -19,4 +19,7 @@ void main() {
     // null 체크를 했으므로, length 사용 가능.
     print(name2.length);
   }
+
+  // name2 가 널이면 null, null 이 아니면 isNotEmpty
+  print(name2?.isNotEmpty);
 }
