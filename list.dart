@@ -11,4 +11,6 @@ void main(List<String> args) {
   // if (giveMeFive) {
   //   numbers.add(5);
   // }
+
+  print(numbers);
 }
