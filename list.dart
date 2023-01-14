@@ -5,6 +5,7 @@ void main(List<String> args) {
     2,
     3,
     4,
+    // collection if
     if (giveMeFive) 5, // list내에 if 추가가능.
   ];
 
