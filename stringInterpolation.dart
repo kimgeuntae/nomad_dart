@@ -1,6 +1,7 @@
 void main(List<String> args) {
   var name = 'kim';
-  var greeting = 'hello, my name is $name, nice to meet you!';
+  var age = 10;
+  var greeting = 'hello, my name is $name and I am ${age = 2}';
 
   print(greeting);
 }
