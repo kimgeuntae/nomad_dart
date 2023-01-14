@@ -10,7 +10,7 @@ void main(List<String> args) {
 }
 */
 
-// late 상수 예시
+// late 예시
 // Using null safety, incorrectly:
 class Coffee {
   // non nullable: _temperature가 선언에도 초기화 되지 않고, 생성자에서도 초기화 되지 않았기 때문이다.
