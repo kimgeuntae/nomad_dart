@@ -1,4 +1,6 @@
-List<int> reverseListOfNumbers(List<int> list) {
+typedef ListOfInt = List<int>;
+
+ListOfInt reverseListOfNumbers(ListOfInt list) {
   var reversed = list.reversed;
   return reversed.toList();
 }
