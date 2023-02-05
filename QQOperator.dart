@@ -17,6 +17,7 @@ String capitalizeName2(String? name) =>
 */
 
 // QQ Operator
+// 좌항 이 null 이면 retrun right, 좌항이 not null 이면 return left.
 String capitalizeName2(String? name) => name?.toUpperCase() ?? 'ANON';
 
 void main() {
