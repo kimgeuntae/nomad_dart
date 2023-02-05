@@ -10,10 +10,14 @@ String capitalizeName2(String? name) {
 
   return 'ANON';
 }
-*/
+
 // 삼항 처리
 String capitalizeName2(String? name) =>
     name != null ? name.toUpperCase() : 'ANON';
+*/
+
+// QQ Operator
+String capitalizeName2(String? name) => name?.toUpperCase() ?? 'ANON';
 
 void main() {
   print(capitalizeName1('kim'));
