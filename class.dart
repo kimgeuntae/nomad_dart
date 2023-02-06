@@ -1,13 +1,17 @@
 class Player {
   // 클래스 프로퍼티는 타입을 지정.
-  late String name;
-  late int xp;
+  String name;
+  int xp;
 
 // Constructors
+  /*
   Player(String name, int xp) {
     this.name = name;
     this.xp = xp;
   }
+  */
+
+  Player(this.name, this.xp);
 
   void sayHello() {
     // dart 는 this 미권장.
